@@ -18,11 +18,31 @@
   font-size: 1.5em;
 }
 
-.App-intro {
-  font-size: large;
+.Appintro {
+  font-size: small;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.Button {
+    background-color: #DAD735;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #966909;
+    color: #066909;
+    font-family: inherit;
+    font-size: 2.5em;
+    padding: 5px 6px;
+    box-shadow: 20px 20px 20px #966909;
+}
+.Button2 {
+    
+}
+
+.Button:hover, .OrderButton:active {
+    background-color: #A0DB41;
+    border: 10px solid #966909;
+    color: #966909;
 }
